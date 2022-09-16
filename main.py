@@ -101,7 +101,7 @@ def get_weather(province, city):
 
 #词霸每日一句
 def get_ciba():
-    if (Whether_Eng!="否"):
+    if (Whether_Eng!="是"):
         url = "http://open.iciba.com/dsapi/"
         headers = {
             'Content-Type': 'application/json',
